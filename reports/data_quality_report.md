@@ -113,4 +113,3 @@ The distribution is right-skewed, indicating that a relatively small number of o
 
 ### 7. Data Quality Decisions
 
-1
