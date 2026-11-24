@@ -1,4 +1,4 @@
-# $\color{orange}{\textsf{Olist E-commerce Analysis.}}$ 
+# Olist E-commerce Analysis
 ## Data Quality and Validation Report
 
 ### 1. Project Overview
