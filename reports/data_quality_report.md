@@ -113,3 +113,23 @@ The distribution is right-skewed, indicating that a relatively small number of o
 
 ### 7. Data Quality Decisions
 
+1. Retain missing review comments without artificial imputation.
+2. Do not blindly fill missing order timestamps.
+3. Preserve timestamp anomalies in the source data.
+4. Flag invalid timestamp sequences during delivery analysis.
+5. Avoid deleting valid sales records solely because of delivery timestamp anomalies.
+6. Use appropriate aggregation before joining order items and payments to prevent duplicated revenue.
+
+### 8. Conclusion
+
+The initial data quality investigation identified missing timestamps, optional review text, and inconsistent delivery-stage timestamps.
+
+The dataset is suitable for further exploratory analysis, provided that the identified anomalies and table-grain differences are handled carefully.
+
+### 9. Next Steps
+
+- Perform exploratory data analysis (EDA).
+- Analyze monthly revenue and order trends.
+- Investigate product-category performance.
+- Study customer purchasing behaviour.
+- Analyze delivery performance and review scores.
